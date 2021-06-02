@@ -31,37 +31,46 @@
     justify-content: space-around;
   }
   
-  #leftnav a {
-    display: flex;
-    align-items: flex-start;
-    display: inline-block;
-    text-decoration: none;
-    color: #606060;
-    padding: 5px;
-    font-size: 18px;
-    width: 100%;
-    box-sizing: border-box;
-  }
-  #leftnav > .left-bottom {
+  #leftnav {
+      width: 240px;
+      a {
+        display: flex;
+        align-items: flex-start;
+        display: inline-block;
+        text-decoration: none;
+        color: #606060;
+        padding: 5px;
+        font-size: 18px;
+        width: 100%;
+        box-sizing: border-box;
+      }
+      
+   .left-bottom {
     position: relative;
     top: 30px;
-  }
-  
-  #leftnav > .side-menu {
+    }
+  > .left-bottom {
+    position: relative;
+    top: 30px;
+    }
+  > .side-menu {
     width: 240px;
-  }
-  #leftnav > .side-menu i {
+    }
+  > .side-menu i {
     display: inline-block;
     width: 1.2em;
     height: 1.2em;
     text-align: center;
-  }
-  
-  #leftnav > .side-menu span {
+    }
+  > .side-menu span {
     margin-left: 20px;
+    }
   }
+
+
   
   #leftnav a:hover {
+      
     color: #ee4343;
     background: rgba(206, 198, 198, 0.459);
   }
