@@ -243,7 +243,6 @@ body {
     background: rgba(206, 198, 198, 0.459);
   }
   #leftnav5 a {
-    background: #fff;
     display: flex;
     align-items: flex-start;
     display: inline-block;
@@ -278,6 +277,10 @@ body {
     background: rgba(206, 198, 198, 0.459);
   }
   
+.bg {
+  background: rgb(197, 194, 194);
+}
+
   .cover-img {
     height: 196px;
     background: url(media/mountains.jpg);
@@ -289,7 +292,7 @@ body {
     position: relative;
     height: 148px;
     top: 195px;
-    background: rgb(229, 226, 226)
+    background: #fff
   }
 
   .firstmid {
@@ -298,7 +301,6 @@ body {
     top: 40px ;
     display: flex;
     flex-direction: row;
-   
     left: 100px;
   }
  
@@ -307,18 +309,21 @@ body {
   width: 100%;
   position: absolute;
   left: 220px;
-  top: 70px;
+  top: 60px;
   font-size: 30px;
+  text-decoration: none;
+  color: inherit;
+  
 
 }
 
 .subbutton {
-  width: 100%;
+  
   position: absolute;
   display: flex;
   flex-direction: row-reverse;
   right: 100px;
-  top: 50px;
+  top: 60px;
 }
 
   .secondmid {
