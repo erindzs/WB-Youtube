@@ -278,7 +278,7 @@ body {
   }
   
 .bg {
-  background: rgb(197, 194, 194);
+  background: #F1F1F1;
 }
 
   .cover-img {
@@ -292,16 +292,16 @@ body {
     position: relative;
     height: 148px;
     top: 195px;
-    background: #fff
+    background: #F9F9F9
   }
 
   .firstmid {
     width: 100%;
     position: absolute;
-    top: 40px ;
+    top: 30px ;
     display: flex;
     flex-direction: row;
-    left: 100px;
+    left: 105px;
   }
  
 
@@ -318,7 +318,15 @@ body {
 }
 
 .subbutton {
-  
+  background-color: #BC271A;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
   position: absolute;
   display: flex;
   flex-direction: row-reverse;
