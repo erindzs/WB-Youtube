@@ -1,9 +1,23 @@
+
+
+
+
+
+
+body {
+  margin: 0;
+  background: #fff;
+}
+
 #wrapper {
     display: grid;
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: 240px 1fr;
 }
 
 #topnav {
+  
+  background: #fff;
+  height: 30px;
     position: fixed;
     top: 8;
     width: 100%;
@@ -34,6 +48,7 @@
   #leftnav {
       width: 240px;
       a {
+        
         display: flex;
         align-items: flex-start;
         display: inline-block;
@@ -76,6 +91,7 @@
   }
   
   #SUB {
+    
     display: flex;
     align-items: flex-start;
     display: inline-block;
@@ -94,6 +110,7 @@
   }
   
   #leftnav2 a {
+    
     display: flex;
     align-items: flex-start;
     display: inline-block;
@@ -136,6 +153,7 @@
   }
   
   #leftnav3 a {
+    background: #fff;
     display: flex;
     align-items: flex-start;
     display: inline-block;
@@ -190,6 +208,7 @@
   }
   
   #leftnav4 a {
+    background: #fff;
     display: flex;
     align-items: flex-start;
     display: inline-block;
@@ -224,6 +243,7 @@
     background: rgba(206, 198, 198, 0.459);
   }
   #leftnav5 a {
+    background: #fff;
     display: flex;
     align-items: flex-start;
     display: inline-block;
@@ -258,3 +278,58 @@
     background: rgba(206, 198, 198, 0.459);
   }
   
+  .cover-img {
+    height: 196px;
+    background: url(media/mountains.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  #midnav{
+    position: relative;
+    height: 148px;
+    top: 195px;
+    background: rgb(229, 226, 226)
+  }
+
+  .firstmid {
+    width: 100%;
+    position: absolute;
+    top: 40px ;
+    display: flex;
+    flex-direction: row;
+   
+    left: 100px;
+  }
+ 
+
+.profilename {
+  width: 100%;
+  position: absolute;
+  left: 220px;
+  top: 70px;
+  font-size: 30px;
+
+}
+
+.subbutton {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: row-reverse;
+  right: 100px;
+  top: 50px;
+}
+
+  .secondmid {
+    width: 100%;
+    position: absolute;
+    top: 125px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: grey;
+   
+    
+  }
