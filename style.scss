@@ -302,17 +302,22 @@ body {
     display: flex;
     flex-direction: row;
     left: 105px;
+    align-items: center;
+    
+
   }
+  
  
 
 .profilename {
   width: 100%;
   position: absolute;
   left: 220px;
-  top: 60px;
-  font-size: 30px;
+  top: 20px;
+  font-size: 20px;
   text-decoration: none;
   color: inherit;
+  line-height: 0.5;
   
 
 }
@@ -320,8 +325,7 @@ body {
 .subbutton {
   background-color: #BC271A;
   border: none;
-  color: white;
-  padding: 15px 32px;
+  padding: 12px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -331,7 +335,9 @@ body {
   display: flex;
   flex-direction: row-reverse;
   right: 100px;
-  top: 60px;
+  top: 45px;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
   .secondmid {
